@@ -1,0 +1,265 @@
+# Alger Approach International Airport
+# DAAG / Houari Boumediene
+# Realistic Endless ATC custom location
+# Config 1: ARR ILS RWY23 / DEP RWY27
+# Config 2: ARR ILS RWY09 / DEP RWY05
+
+[airspace]
+zoom = 3.0
+elevation = 82
+descendaltitude = 5000
+ceiling = 13000
+above = 15000
+transitionaltitude = 3940
+speedrestriction = 50, 300, 10500, 250
+localizerspeed = 10, 180
+usa = false
+metric = false
+separation = 3.0
+automatic = false
+name = alger approach, alger departure
+decimaldegrees = false
+center = N36.4127, E003.1255
+magneticvar = 2.0
+
+beacons =
+	ZEM, N36.4770, E003.3425, 0, zem
+	ALR, N36.4146, E003.1293, 0, alr
+	SMR, N36.4157, E003.0539, 0, smr
+	SDM, N36.3779, E002.5836, 0, sdm
+	MAR, N36.4109, E002.4693, 0, mar
+	LIMON, N37.0427, E003.5397, 0, limon
+	BNA, N36.3908, E003.3549, 0, bna
+	BABOR, N36.2907, E005.0000, 0, babor
+	BJA, N36.4293, E005.0460, 090, bja
+	BSA, N35.2103, E004.1350, 090, bsa
+	BOURI, N37.5935, E005.0000, 180, bouri
+	CHE, N36.3608, E002.1160, 170, che
+	LABRO, N37.1648, E001.0727, 150, labro
+	MOGIL, N38.0678, E003.0908, 0, mogil
+	OTARO, N39.0000, E004.4106, 0, otaro
+	PECES, N38.2882, E003.5698, 0, peces
+	SADAF, N37.4822, E002.1973, 0, sadaf
+	TAGRO, N36.1213, E005.0000, 0, tagro
+
+boundary =
+	N036.05.01, E002.26.00
+	N036.05.01, E003.51.05
+	N036.45.01, E004.30.00
+	N036.59.02, E004.30.00
+	N037.01.13, E004.29.06
+	N037.05.08, E004.27.18
+	N037.08.06, E004.25.46
+	N037.11.14, E004.23.45
+	N037.15.46, E004.20.25
+	N037.19.06, E004.17.34
+	N037.23.34, E004.13.05
+	N037.26.51, E004.09.03
+	N037.30.00, E004.04.44
+	N037.31.03, E003.29.58
+	N037.31.28, E003.12.27
+	N037.31.24, E003.09.41
+	N037.31.12, E003.06.29
+	N037.30.58, E003.03.47
+	N037.30.25, E003.00.01
+	N037.29.49, E002.56.54
+	N037.29.06, E002.53.46
+	N037.28.06, E002.50.20
+	N037.27.02, E002.47.12
+	N037.25.57, E002.44.28
+	N037.24.49, E002.41.50
+	N037.23.40, E002.39.26
+	N037.22.11, E002.36.41
+	N037.20.43, E002.34.17
+	N037.18.55, E002.31.37
+	N037.17.43, E002.29.59
+	N037.16.50, E002.28.51
+	N037.15.46, E002.27.35
+	N037.14.15, E002.25.53
+	N037.13.13, E002.24.44
+	N037.12.20, E002.23.55
+	N037.11.15, E002.22.50
+	N037.10.08, E002.21.54
+	N037.09.21, E002.21.17
+	N037.08.04, E002.20.16
+	N037.06.51, E002.19.18
+	N037.04.44, E002.17.52
+	N037.02.18, E002.16.22
+	N036.59.25, E002.14.53
+	N036.56.24, E002.13.35
+	N036.52.49, E002.12.24
+	N036.48.34, E002.11.28
+	N036.44.55, E002.11.02
+	N036.42.26, E002.10.53
+	N036.40.00, E002.10.54
+	N036.35.51, E002.12.43
+	N036.05.01, E002.26.00
+
+line1 = coast
+	N036.0951, E000.1853
+	N036.1256, E000.2038
+	N036.1904, E000.3834
+	N036.2159, E000.4750
+	N036.2253, E000.5228
+	N036.2647, E000.5521
+	N036.3006, E001.0527
+	N036.3135, E001.1125
+	N036.3051, E001.1634
+	N036.3334, E001.2023
+	N036.3215, E001.3016
+	N036.3325, E001.3818
+	N036.3315, E001.4111
+	N036.3449, E001.5404
+	N036.3439, E002.0301
+	N036.3718, E002.1236
+	N036.3842, E002.2056
+	N036.3802, E002.2402
+	N036.3618, E002.2457
+	N036.3618, E002.3515
+	N036.3951, E002.4209
+	N036.4155, E002.4737
+	N036.4608, E002.5024
+	N036.4702, E002.5311
+	N036.4901, E002.5335
+	N036.4941, E003.0029
+	N036.4732, E003.0357
+	N036.4533, E003.0418
+	N036.4444, E003.0813
+	N036.4528, E003.1131
+	N036.4712, E003.1353
+	N036.4854, E003.1319
+	N036.4906, E003.1535
+	N036.4807, E003.1655
+
+line2 = coast
+	N036.4620, E003.2744
+	N036.4824, E003.3333
+	N036.5202, E003.4237
+	N036.5313, E003.4302
+	N036.5532, E003.5505
+	N036.5437, E003.5523
+	N036.5415, E004.0057
+	N036.5341, E004.0655
+	N036.5420, E004.0856
+	N036.5345, E004.1220
+	N036.5442, E004.1741
+	N036.5410, E004.1936
+	N036.5353, E004.2441
+	N036.5452, E004.2454
+	N036.5338, E004.3000
+	N036.5318, E004.3802
+	N036.5315, E004.4338
+	N036.5354, E004.4529
+	N036.5315, E004.4820
+
+handoff =
+	360, Algeria Control, Algeria, 127.3
+
+[airport1]
+name = Houari Boumediene
+code = DAAG
+runways =
+	rwy1, 09, N36.4152, E3.1025, 091, 0, 0, 0, 56, 3, 091, 6.8, 0, 0, 0, 0, 118.70, Alger Tower
+	rwy2, 05, N36.4163, E3.1321, 052, 0, 0, 0, 69, 3, 052, 6.8, 0, 0, 0, 0, 118.70, Alger Tower
+climbaltitude = 7000
+
+sids =
+	BABOR
+	BJA
+	BSA
+	BOURI
+	CHE
+	LABRO
+	MOGIL
+	OTARO
+	PECES
+	SADAF
+	TAGRO
+
+entrypoints =
+	328, ALR, 13000
+	358, ALR, 13000
+	070, ALR, 14000
+	098, ALR, 14000
+	149, ALR, 14000
+	226, ALR, 13000
+	264, ALR, 13000
+	044, LIMON, 14000
+	111, LIMON, 14000
+	346, ZEM, 13000
+	009, ZEM, 13000
+	022, ZEM, 13000
+	044, ZEM, 14000
+	161, ZEM, 14000
+	172, ZEM, 13000
+	250, ZEM, 13000
+	270, CHE, 13000
+
+airlines =
+	dah, 34, B738/B737/A330/A332/A333/A321/A320, Air Algerie, nswe
+	dth, 8,  B738/AT7, Domestic, nswe
+	dtr, 6,  B738, Tassili, nswe
+
+	tvf, 9,  B738/A320, Transavia, n
+	afr, 7,  A319/A320/A321, Air France, n
+	fpo, 5,  B738, ASL Airlines, n
+	vlg, 4,  A320, Vueling, n
+	voe, 3,  A319/A320, Volotea, n
+
+	thy, 5,  A320/A321/B738/B739, Turkish, e
+	tun, 3,  A319/A320, Tunisair, e
+	sva, 2,  A320/B789, Saudia, e
+	qtr, 2,  B788/B77W, Qatar, e
+	msr, 2,  B738/A320, EgyptAir, e
+
+	ram, 3,  B738/B788, Royal Air Maroc, w
+	tap, 1,  A320/A321, TAP Air Portugal, w
+
+	dlh, 2,  A319/A320/A321, Lufthansa, ne
+	klm, 1,  B738, KLM, ne
+
+[area1]
+shape = polygon
+altitude = 2500
+name = R84A
+labelpos = -29, -5
+points =
+	-31.4, -2.2
+	-38.6, -7.5
+	-25.6, -8.3
+	-22.8, -4.5
+	-24.9, -2.4 
+
+[area2]
+shape = polygon
+altitude = 5000
+name = R84B
+labelpos = -32, -11
+points =
+	-25.6, -8.3
+	-38.6, -10.5
+	-32.9, -16.4
+
+[approach1]
+runway = rwy1
+beacon = MAR
+route1 =
+	079, ILS09, ils zero niner
+	10.5NM, 2240, 180
+
+[approach2]
+runway = rwy2, rev
+beacon = ZEM
+route1 =
+	248, ILS23, ils two three
+	10.0NM, 2300, 180
+
+[configurations]
+
+config1 =
+	0, rwy1, startrev
+	0, rwy2, landrev
+
+config2 =
+	0, rwy1, land
+	0, rwy2, start
